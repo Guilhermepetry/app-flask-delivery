@@ -1,7 +1,7 @@
 """"Extensão Flask """
 
 
-from flask import Flask
+from flask import Flask, request
 
 
 def init_app(app: Flask):
@@ -9,4 +9,5 @@ def init_app(app: Flask):
 
     @app.route("/")
     def index():
+        print(request.args)
         return "Hello, world!"
