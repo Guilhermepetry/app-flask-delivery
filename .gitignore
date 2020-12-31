@@ -130,3 +130,4 @@ dmypy.json
 
 # Annotations
 .annotations
+delivery/.vscode/settings.json
